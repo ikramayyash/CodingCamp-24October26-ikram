@@ -8,16 +8,13 @@
 </head>
 <body>
 
-  <!-- ── Top Bar ─────────────────────────────────────────────── -->
   <header class="topbar">
     <h1 class="app-title">Life Dashboard</h1>
     <button id="theme-toggle" aria-label="Toggle dark / light mode">☀</button>
   </header>
 
-  <!-- ── Main Dashboard ─────────────────────────────────────── -->
   <main class="dashboard">
 
-    <!-- Greeting Card -->
     <section class="card greeting-card" id="greeting-section">
       <div class="greeting-time-block">
         <p id="greeting-time">--:--</p>
@@ -41,10 +38,8 @@
       </div>
     </section>
 
-    <!-- Grid Row: Focus Timer + To-Do List -->
     <div class="grid-row">
 
-      <!-- Focus Timer Card -->
       <section class="card timer-card" id="timer-section">
         <h2>Focus Timer</h2>
         <div class="timer-display" id="timer-display" aria-live="polite" aria-label="Timer countdown">25:00</div>
@@ -55,7 +50,6 @@
         </div>
       </section>
 
-      <!-- To-Do List Card -->
       <section class="card todo-card" id="todo-section">
         <h2>Tasks</h2>
         <div class="todo-input-row">
@@ -72,9 +66,8 @@
         <ul id="task-list" aria-label="Task list"></ul>
       </section>
 
-    </div><!-- /.grid-row -->
+    </div>
 
-    <!-- Quick Links Card -->
     <section class="card links-card" id="links-section">
       <h2>Quick Links</h2>
       <div class="links-input-row">
@@ -97,7 +90,7 @@
       <div id="links-container" aria-label="Quick links"></div>
     </section>
 
-  </main><!-- /.dashboard -->
+  </main>
 
   <script src="js/script.js"></script>
 </body>
